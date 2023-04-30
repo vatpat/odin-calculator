@@ -1,0 +1,34 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#container {
+    border: 5px solid black;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: grey;
+}
+
+#displaySection {
+    text-align: right;
+    border: 2px solid black;
+    font-size: xxx-large;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#inputSection {
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#inputSection button {
+    font-size: xx-large;
+    width: 70px;
+    height: 70px;
+}
