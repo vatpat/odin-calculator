@@ -4,7 +4,7 @@
 
 #container {
     border: 5px solid black;
-    width: 230px;
+    width: 310px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -12,6 +12,7 @@
 }
 
 #displaySection {
+    height: 54px;
     text-align: right;
     border: 2px solid black;
     font-size: xxx-large;
